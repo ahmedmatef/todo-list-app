@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalbonyan Bord</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Kalbonyan Bord</h1>
+    </div>
+    <!--
+      Lists 
+    -->
+    <main class="content">
+      <div class="main-div">
+        <div class="tasks">
+          <h2>Not Started</h2>
+          <div class="task-content">
+            <div class="task">
+              <input type="text" id="text" class="text" draggable="true" placeholder="Inser Your Task"/>
+            </div>
+            <div class="actions">
+              <ion-icon name="create-outline" class="edit"></ion-icon>
+              <ion-icon name="trash-outline" class="delete"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <button class="btn" id="btn">Add +</button>
+      </div>
+      <div class="main-div">
+        <div class="tasks">
+          <h2>In Progress</h2>
+          </div>
+          <button class="btn" id="btn">Add +</button>
+        </div>
+      </div>
+      <div class="main-div">
+        <div class="tasks">
+          <h2>Completed</h2>
+          </div>
+          <button class="btn" id="btn">Add +</button>
+        </div>
+      </div>
+
+    </main>
+    <!-- Javascript file -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
